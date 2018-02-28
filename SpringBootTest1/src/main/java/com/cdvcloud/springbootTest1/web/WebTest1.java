@@ -14,6 +14,6 @@ public class WebTest1 {
 	
 	@RequestMapping(value={"/"},produces="text/plain;charset=UTF-8")
 	public String index() {
-		return "Hello This Is My SpringBoot Project2 !  " + myself;
+		return "Hello This Is My SpringBoot Project3 !  " + myself;
 	}
 }
